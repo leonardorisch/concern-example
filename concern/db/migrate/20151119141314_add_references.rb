@@ -1,4 +1,4 @@
-class Teste < ActiveRecord::Migration
+class AddReferences < ActiveRecord::Migration
   def change
     add_reference :votes, :post
     add_reference :votes, :comment
